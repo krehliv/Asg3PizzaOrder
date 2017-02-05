@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             totalBill += 2.50;
         }
 
-        Double roundedBill = Math.round(totalBill * 100.00) / 100.00;
-        tvTotalBill.setText("Total is: $" + roundedBill.toString());
+        tvTotalBill.setText(String.format("Total is: $%.2f", totalBill));
     }
 }
