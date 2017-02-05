@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Variable Declaration
     RadioButton rbSmall;
     RadioButton rbMedium;
     RadioButton rbLarge;
